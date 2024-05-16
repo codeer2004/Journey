@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+img {
+    border-radius: 20px;
+}
+header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 20px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #e5e7eb;
+    font-size: 14px;
+    gap: 9px; 
+}
+.logo {
+    color: #f9faf8 ;
+    font-size: 24px;
+}
+
+.first {
+    background-color: #1f2937;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    gap:20px ;
+    flex-wrap: wrap;
+}
+.sub-f {
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+.head1 {  /*for the first header beside the image*/
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.cont1 {
+    line-height: 1.5;
+}
+button {
+    background-color:#3882f6 ;
+    color: white;
+    padding: 13px 10px;
+    border-radius: 20px;
+}
+.no-bo { /*style he first button*/
+ border: none;    
+}
+
+.two {
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.head2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.sub-t {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.item-t { 
+    width: 250px;
+    padding: 10px;
+    color: #1f2937;
+    line-height: 1.5;
+    text-align: center;
+}
+.item-t-para { /*for the text under the pictures*/
+    border: 2px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.24);
+    border-radius: 14px;
+    padding: 7px;
+}
+.three {
+    background-color:#e5e7eb ;
+    padding: 70px 40px;
+    line-height: 1.5;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.three-co { /* for the container of the wisdom*/
+    width: 410px;
+    align-self: center;
+
+
+}
+.three-t {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: lighter;
+    align-self: center;
+}
+.three- { /*for the author's wisdom*/
+    font-weight: bold;
+    margin-left: 250px;
+    padding: 4px;
+}
+.four {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+.four-co {
+    background-color: #3882f6;
+    padding: 30px 60px;
+    border: #3882f6;
+    border-radius: 20px;
+    margin: 20px;
+    width: fit-content;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.four-t { /*this is to target the length of the text */
+    max-width: 500px;
+    line-height: 1.4;
+}
+.four-h {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+.four-b { /*control the button box */
+    align-self: center;
+}
+.whi { /*to control the button style*/
+    border: 1px solid white;
+}
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: #f9faf8;
+}
